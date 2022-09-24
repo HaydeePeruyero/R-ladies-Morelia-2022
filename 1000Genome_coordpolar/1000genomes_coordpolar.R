@@ -9,8 +9,10 @@
 #Este script genera un grafico tipo donut con datos basicos de 1000 Genomas
 #https://www.kaggle.com/datasets/daiearth22/1000-genome-data
 
+setwd("~/R_sites/R-ladies/1000Genome_coordpolar")
 
 #Las librerias 
+#pacman sirve para instalar y cargar paquetes: https://www.rdocumentation.org/packages/pacman/versions/0.5.1
 
 library("pacman")
 
@@ -21,9 +23,12 @@ p_load("vroom",
 
 #Visualizacion de datos
 
+#vroom es equivalente a read.csv o similar, detecta automaticamente los header
+#.df es solo para identificar nosotras que es un dataframe
+
 genomes.df <- vroom(file = "1000genomesinfo.csv")
 
-#Quuiero hacer una cuenta de cuantas muestras por pais hay
+#Quiero hacer una cuenta de cuantas muestras por pais hay 
 #para ello
 
 counts_per_country <- genomes.df %>%   #Primero llamo a los datos. Uso el símbolo %>% para conectar las operaciones

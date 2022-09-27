@@ -1,0 +1,6 @@
+CLAVE ,DESCRIPCION 
+1,Inactivos físicamente que alguna vez practicaron actividad físico-deportiva.
+2,Inactivos físicamente que nunca han practicaron actividad físico-deportiva.
+11,Activos físicamente con nivel suficiente de actividad físico-deportiva.
+12,Activos físicamente con nivel insuficiente de actividad físico-deportiva.
+13,Activos físicamente con nivel no declarado de actividad físico-deportiva.

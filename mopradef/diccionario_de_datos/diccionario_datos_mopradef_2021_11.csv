@@ -1,0 +1,49 @@
+﻿NOMBRE_CAMPO,LONGITUD,TIPO,MNEMÓNICO,CATÁLOGO,RANGO_CLAVES   
+Folio ,6,C,folio ,,"1 Zona, 1 - 3 Estrato, Últimos 4 panel de rotación"
+Entidad ,2,C,entidad,entidad ,01...32
+Control ,6,C,control,,000001-999999
+Vivienda seleccionada ,1,C,viv_sel ,viv_sel ,1…9
+Número de hogar ,1,C,num_hog,num_hog,1…9
+Hogar mudado ,1,C,hog_mud,hog_mud ,1...3
+Número de renglón del informante elegido  ,2,C,n_ren_ele,n_ren_ele,01…12
+Ciudad autorrepresentada ,2,N,cd,cd,01…43
+Periodo ,4,C,periodo,periodo,01…12 21
+Sexo,1,C,sexo,sexo ," 1, 2"
+Edad,2,N,edad,edad ,00…99
+Nivel de instrucción,2,C,nivel ,nivel,"00…09, 99, blanco "
+ ¿Hasta que año o grado aprobó en la escuela?,1,C,anio ,anio ,"1…8, 9, blanco"
+ ¿La semana pasada…  ,2,N,cond_activ,cond_activ,"01…10,99"
+"1. ¿En su tiempo libre practica algún deporte o ejercicio físico, como fútbol, basquetbol, aeróbics, bicicleta, caminar u otro?",1,N,p1,c_si_no,"1, 2"
+2. ¿Alguna vez usted practicó deporte o ejercicio físico?,1,N,p2,c_si_no_b,"1, 2, blanco "
+3. ¿Cuál es la razón principal por la que usted abandonó la práctica de deporte o ejercicio físico?,1,N,p3,cp3,"1…9, blanco "
+3. ¿Cuál es la razón principal por la que usted abandonó la práctica de deporte o ejercicio físico? Especifique,60,C,p3_8esp,,"a…z, 1…9, blanco "
+4. ¿Cuál es la razón principal por la que usted no practica deporte ni ejercicio físico?,1,N,p4,cp4,"1…9, blanco "
+4. ¿Cuál es la razón principal por la que usted no practica deporte ni ejercicio físico?Especifique ,60,C,p4_8esp,,"a…z, 1…9, blanco "
+5. ¿Ha pensado en realizar deporte o ejercicio físico próximamente?,1,N,p5,c_si_no_b,"1, 2, blanco "
+6. ¿Qué necesita usted para realizar deporte o ejercicio físico?,1,N,p6,cp6 ,"1…4, 8, 9, blanco "
+6. ¿Qué necesita usted para realizar deporte o ejercicio físico? Especifique ,60,C,p6_8esp,,"a…z, 1…9, blanco "
+7. ¿Usted realiza…,1,N,p7,cp7,"1…3, blanco "
+"8. De lunes a domingo de la semana pasada, ¿cuántos días realizó usted (deporte/ejercicio físico/deporte y ejercicio físico)",1,N,p8,cp8,"1…8, blanco "
+"9. Aproximadamente, ¿cuántos minutos realizó (deporte/ejercicio físico/deporte y ejercicio físico) por día?",3,N,p9,cp9,"001…999, blanco "
+10. ¿La intensidad de esta práctica fue principalmente…,1,N,p10,cp10,"1, 2, blanco "
+11. ¿Principalmente en dónde realiza usted (deporte/ejercicio físico/deporte y ejercicio físico) por día ?,1,N,p11,cp11,"1…6, 8, blanco "
+11. ¿Principalmente en dónde realiza usted (deporte/ejercicio físico/deporte y ejercicio físico) por día ? Especifique,60,C,p11_8esp,,"a…z, 1…9, blanco "
+12. ¿En qué momento del día usted realiza (deporte/ejercicio físico/deporte y ejercicio físico)? En la mañana ,1,N,p12_1,cp12_1,"1, blanco "
+12. ¿En qué momento del día usted realiza (deporte/ejercicio físico/deporte y ejercicio físico)? En la tarde ,1,N,p12_2,cp12_2,"2, blanco "
+12. ¿En qué momento del día usted realiza (deporte/ejercicio físico/deporte y ejercicio físico)? En la noche ,1,N,p12_3,cp12_3,"3, blanco "
+12. ¿En qué momento del día usted realiza (deporte/ejercicio físico/deporte y ejercicio físico)? En cualquier momento del día ,1,N,p12_4,cp12_4,"4, blanco "
+13. ¿Cuál es el motivo principal por el que usted realiza (deporte/ejercicio físico/deporte y ejercicio físico)?,1,N,p13,cp13,"1…4, 8, blanco "
+13. ¿Cuál es el motivo principal por el que usted realiza (deporte/ejercicio físico/deporte y ejercicio físico)? Especifique,60,C,p13_8esp,,"a…z, 1…9, blanco "
+"14. La principal influencia para que usted realice (deporte/ejercicio físico/deporte y ejercicio físico), ¿fue por parte de…",1,N,p14,cp14,"1…8, blanco "
+"14. La principal influencia para que usted realice (deporte/ejercicio físico/deporte y ejercicio físico), ¿fue por parte de… Especifique",60,C,p14_8esp,,"a…z, 1…9, blanco "
+15. ¿Con quién acostumbra usted realizar (deporte/ejercicio físico/deporte y ejercicio físico)?,1,N,p15,cp15,"1…4, blanco "
+16. ¿Hay instalaciones o lugares públicos en su colonia para realizar deporte o ejercicio físico?,1,N,p16,c_si_no_ns,"1, 2, 9, blanco "
+17. ¿Esas instalciones o lugares públicos se encuentran en condiciones…,1,N,p17,cp17,"1…3, 9, blanco "
+18. ¿Cuál es la razón principal por la que usted no realizó deporte ni ejercicio físico la semana pasada?,1,N,p18,cp18,"1…3, 8, 9, blanco "
+18. ¿Cuál es la razón principal por la que usted no realizó deporte ni ejercicio físico la semana pasada? Especifique,60,C,p18_8esp,,"a…z, 1…9, blanco "
+observaciones ,60,C,obs,,"a…z, 1…9, blanco "
+Tiempo total semanal de practica fisico-deportiva (MINUTOS)  ,4,N,tipracsem,ctipracsem,"0001…9999, blanco "
+Actividad físico-deportiva ,2,C,actfis,cactfis,"01, 02, 11…13, blanco "
+Factor elegido,6,N,factor ,,000001…999999
+Unidad primaria de muestreo,5,C,upm_dis,,00001 - 00578
+Estrato de diseño muestral,3,N,est_dis,,001 - 004

@@ -1,0 +1,46 @@
+Identifier: MEX-INEGI.ESD3.03-MOPRADEF-2021
+
+Title: Módulo de Práctica Deportiva y Ejercicio Físico (MOPRADEF) 2021. Datos oportunos
+
+Description: El INEGI tiene el compromiso de recabar información de interés nacional, esto es útil para diseñar y evaluar políticas públicas a favor de la población y el desarrollo del México, siendo de utilidad las vinculadas con las orientadas al fomento del deporte y ejercicio físico; por lo que el Módulo de Práctica Deportiva y Ejercicio Físico (MOPRADEF), capta información desde 2013.
+El Módulo de Práctica Deportiva y Ejercicio Físico (MOPRADEF) se levantaba cada tres meses, desde noviembre de 2013; y a partir de 2015, una vez al año, en el mes de noviembre. Su información se recaba en un módulo anexo al cuestionario de la Encuesta Nacional sobre la Confianza del Consumidor ENCO, mediante una entrevista cara a cara, cuya información es recabada mediante dispositivo electrónico.
+El esquema de muestreo es probabilístico, estratificado y por conglomerados.
+Para determinar el nivel de suficiencia de práctica físico-deportiva para obtener beneficios en la salud, se utiliza los parámetros que establece la OMS sobre la frecuencia (días de la semana), el tiempo (minutos), y la intensidad (vigorosa o moderada), de la práctica físico-deportiva que realiza la población.
+
+Objetivo general 
+Este proyecto tiene la finalidad de generar información estadística sobre la participación de hombres y mujeres de 18 años y más de edad en la práctica de algún deporte o la realización de ejercicio físico en su tiempo libre, así como otras características de interés sobre estas actividades físicas, para la formulación de políticas públicas encaminadas a mejorar la salud y la calidad de vida de los mexicanos. 
+
+Objetivos específicos 
+- Identificar las principales características de la práctica deportiva y del ejercicio físico que realiza la población semanalmente, tales como frecuencia, duración e intensidad, horario y lugar de realización; 
+- Conocer el motivo principal y la influencia que impulsó la práctica físico-deportiva de la población; 
+- Conocer la disponibilidad de espacios públicos para realizar deporte y ejercicio físico y la percepción que tiene la población sobre el estado físico de éstos; 
+- Conocer la razón principal por la cual no se realiza actividad físico-deportiva y con ello, identificar oportunidades para el fomento de su práctica; 
+- Conocer si la población que no realiza actividad físico-deportiva alguna vez practicó deporte o ejercicio físico y el motivo de su abandono.
+
+Identificar las principales características de la práctica deportiva y del ejercicio físico, tales como frecuencia, duración, intensidad y horario de realización.
+Conocer el motivo principal que impulsó la práctica físico-deportiva de las personas.
+Identificar el tipo de lugares en los cuales la población realiza deporte y ejercicio físico.
+Conocer la razón principal por la cual no se realiza práctica físico-deportiva y con ello, identificar oportunidades para el fomento de su práctica.
+Conocer si la población que no realiza práctica físico-deportiva, alguna vez realizó deporte o ejercicio físico y el motivo de su abandono.
+
+Modified: 2022-01-26
+
+Publisher: Instituto Nacional de Estadística y Geografía, INEGI
+
+Mbox: atencion.usuarios@inegi.org.mx
+
+License: https://www.inegi.org.mx/inegi/terminos.html
+
+DataDictionary: https://www.inegi.org.mx/rnm/index.php/catalog/731/data-dictionary
+
+Keyword: "actividad", "atleta", "club", "competencia", "competición", "deporte", "encuesta", "entretenimiento", "física", "gimnasia", "hogar", "juego", "libre", "ocio", "población", "práctica", "salud", "tiempo"
+
+ContactPoint: Mtro. J. Armando Aguiar Rodríguez, 800 111 4634
+
+Temporal: 2021-11-01-2021-11-20
+
+Spatial: Estados Unidos Mexicanos
+
+AccrualPeriodicity: Anualmente
+
+Distribution: https://www.inegi.org.mx/programas/mopradef/

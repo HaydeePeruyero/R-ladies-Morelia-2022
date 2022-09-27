@@ -31,12 +31,12 @@ unique(mopradef.df$sexo)
 unique(mopradef.df$edad)
 
 # Vamos a hacer x entidad, dos barras por sexo y counts
-depor_histo<-geom_histogram(mopradef.df )
+#depor_histo<-geom_histogram(mopradef.df )
 
 # entidad, cuenta, edad
 mopra_entidad<-mopradef.df %>%
-  group_by(entidad,sexo) %>%
-  count(entidad, sort = TRUE)
+  dplyr::group_by(entidad,sexo) %>%
+  dplyr::count(entidad, sort = TRUE)
 
 
 theme_set(theme_classic())
@@ -61,8 +61,8 @@ ggsave(file="depor_histo2.png",depor_histo)
 
 # entidad, cuenta, edad
 mopra_edad<-mopradef.df %>%
-  group_by(sexo,edad) %>%
-  count(edad, sort = TRUE)
+  dplyr::group_by(sexo,edad) %>%
+  dplyr::count(edad, sort = TRUE)
 
 
 theme_set(theme_classic())

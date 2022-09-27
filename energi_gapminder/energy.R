@@ -1,7 +1,7 @@
 library(stringr)
 library(tidyverse)
 
-setwd("~/Documentos/carpentries/R_ladies/energy_gapminder/per_person/")
+setwd("~/R_sites/R-ladies/energi_gapminder/per_person/")
 
 for ( i in list.files(".",pattern = ".csv")){
   nombre <- str_sub(i, end = -5)
@@ -49,6 +49,6 @@ levels(gas_oil$Continent) <- c("North Africa", "Sub Saharan Africa", "North Amer
 
 ggplot(data = gas_oil,
        mapping = aes(x=Year, y = NGpC, color = Continent, by= Country),)+
-  geom_col()+
-  geom_line(mapping = aes(x= Year, y= OpC))+
-  scale_y_continuous(("NGpC", sec.axis = sec_axis(name = OpC)))
+  geom_line()
+#  geom_line(mapping = aes(x= Year, y= OpC))+
+ # scale_y_continuous(("NGpC", sec.axis = sec_axis(name = OpC)))

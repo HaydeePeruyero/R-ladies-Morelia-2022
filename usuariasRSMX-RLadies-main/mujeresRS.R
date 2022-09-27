@@ -1,4 +1,5 @@
-setwd("/home/alumno3/rladies")
+setwd("~/R_sites/R-ladies/usuariasRSMX-RLadies-main")
+library(plyr)
 library(dplyr)
 library(ggplot2)
 library(tidyr)
@@ -25,7 +26,7 @@ total_usr <- function(p){
 
 
 #Se aplica la funcion para obtener el total de usuarias para cada red social por cada 100 000 mujeres
-resumen <- ldply(p_redes,total_usr)/1e5
+resumen <- ldply(p_redes,total_usr)/1e5 # convendría estandarizar/normalizar los datos
 names(resumen) <- c("total") #Se renombra el atributo
 
 #Se agregael nombre de la red social
@@ -47,6 +48,8 @@ plot_final <- ggplot(data=resumen, mapping = aes(x=red,y=total,fill=red)) +
   scale_fill_manual(values=colores) +
   theme_minimal() +
   theme(axis.text.x = element_text(angle = 90), legend.position="none")
+
+plot_final
 
 #Guardar el plot
 ## PDF
@@ -76,3 +79,7 @@ ggsave("GraficaUsrMX.png",
        dpi = 600,
        device = "png"
 )
+
+
+
+
